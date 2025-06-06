@@ -1,0 +1,106 @@
+body {
+    background-color: whitesmoke;
+}
+
+.title, .specialties {
+    padding: 50px;
+}
+
+.title {
+     height: 100vh;
+}
+
+.specialties {
+    height: 50vh;
+}
+
+.template {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 60px 60px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+
+.note {
+    color: goldenrod;
+}
+
+header {
+    text-align: center;
+}
+header h1 {
+    font-size: 178px;
+}
+
+
+header p, .about p {
+    font-style: italic;
+}
+
+header p {
+    margin-top: -25px;
+    font-size: 1.6rem;
+}
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    margin: 50px;
+    height: 2vh;
+    font-size: 2.2rem;
+}
+.about p {
+    margin: 60px auto;
+    font-size: 1.4em;
+    height: 30%;
+}
+
+.name {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.pic {
+    --size: 210px;
+    width: var(--size);
+    height: var(--size);
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.special-foods {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.special-food {
+    text-align: center;
+}
+
+
+footer {
+    height: 10vh;
+    margin: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    margin: 50px auto;
+}
+
+
+.last{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+   
+}
