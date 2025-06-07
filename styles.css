@@ -16,7 +16,7 @@ body {
 }
 
 .specialties {
-    height: 50vh;
+    height: 70vh;
 }
 
 .template {
@@ -31,6 +31,19 @@ body {
 
 }
 
+.flags {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    padding: 30px;
+    margin: 30px;
+    margin-top: -30px;
+}
+
+.flags img {
+    width: 150px;
+    height: 100px;
+}
 .note {
     color: goldenrod;
 }
@@ -40,7 +53,9 @@ header {
 }
 header h1 {
     font-size: 180px;
+    margin-bottom: -20px;
 }
+
 
 
 header p, .about p {
@@ -64,6 +79,7 @@ header p {
     margin: 60px auto;
     font-size: 1.4em;
     height: 30%;
+    margin-bottom: -20px;
 }
 
 .name {
